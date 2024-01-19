@@ -1,0 +1,57 @@
+#contenedorDoctores {
+    padding: 20px;
+  }
+  
+  .tituloHome {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .listaDentistas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .doctor-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .doctor-info {
+    text-align: center;
+  }
+  
+  .imgDoctor {
+    width: 100%; 
+    max-width: 200px; 
+  }
+  
+  .star-container {
+    margin-top: auto; 
+    text-align: center;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .light {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #fff;
+  }
+
+  #imgStar{
+    width: 20px;
+  }
